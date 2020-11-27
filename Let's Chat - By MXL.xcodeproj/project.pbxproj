@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		4869DD9625709DFB005DBE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DD9525709DFB005DBE45 /* AppDelegate.swift */; };
 		4869DD9825709DFB005DBE45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DD9725709DFB005DBE45 /* SceneDelegate.swift */; };
-		4869DD9A25709DFB005DBE45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DD9925709DFB005DBE45 /* ViewController.swift */; };
 		4869DD9D25709DFB005DBE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4869DD9B25709DFB005DBE45 /* Main.storyboard */; };
 		4869DD9F25709DFE005DBE45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4869DD9E25709DFE005DBE45 /* Assets.xcassets */; };
 		4869DDA225709DFE005DBE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4869DDA025709DFE005DBE45 /* LaunchScreen.storyboard */; };
 		4869DDAD25709DFF005DBE45 /* Let_s_Chat___By_MXLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDAC25709DFF005DBE45 /* Let_s_Chat___By_MXLTests.swift */; };
 		4869DDB825709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDB725709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift */; };
+		4869DDD5257117AB005DBE45 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDD4257117AB005DBE45 /* WeatherViewController.swift */; };
+		4869DDD6257117AB005DBE45 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDD4257117AB005DBE45 /* WeatherViewController.swift */; };
+		4869DDD7257117AB005DBE45 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDD4257117AB005DBE45 /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +40,6 @@
 		4869DD9225709DFB005DBE45 /* Let's Chat - By MXL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let's Chat - By MXL.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4869DD9525709DFB005DBE45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4869DD9725709DFB005DBE45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4869DD9925709DFB005DBE45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4869DD9C25709DFB005DBE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4869DD9E25709DFE005DBE45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4869DDA125709DFE005DBE45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		4869DDB325709DFF005DBE45 /* Let's Chat - By MXLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Let's Chat - By MXLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4869DDB725709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Let_s_Chat___By_MXLUITests.swift"; sourceTree = "<group>"; };
 		4869DDB925709DFF005DBE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4869DDD4257117AB005DBE45 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +134,7 @@
 		4869DDC825709E2C005DBE45 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4869DD9925709DFB005DBE45 /* ViewController.swift */,
+				4869DDD4257117AB005DBE45 /* WeatherViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -282,8 +284,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4869DD9A25709DFB005DBE45 /* ViewController.swift in Sources */,
 				4869DD9625709DFB005DBE45 /* AppDelegate.swift in Sources */,
+				4869DDD5257117AB005DBE45 /* WeatherViewController.swift in Sources */,
 				4869DD9825709DFB005DBE45 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4869DDAD25709DFF005DBE45 /* Let_s_Chat___By_MXLTests.swift in Sources */,
+				4869DDD6257117AB005DBE45 /* WeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4869DDB825709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift in Sources */,
+				4869DDD7257117AB005DBE45 /* WeatherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
