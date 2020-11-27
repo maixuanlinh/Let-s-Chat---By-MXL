@@ -244,22 +244,85 @@
                     <view key="view" contentMode="scaleToFill" id="2CZ-HV-0ey">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fE2-Ud-WlV">
+                                <rect key="frame" x="0.0" y="44" width="414" height="758"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nMb-0i-X1b">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nMb-0i-X1b" id="77N-Gg-Inr">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADk-HQ-G3r">
+                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder=" Write a message... " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="70a-TO-PcW" userLabel="Message Textfield">
+                                        <rect key="frame" x="20" y="20" width="314" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="CQ0-qa-O7I"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WBD-aB-xME">
+                                        <rect key="frame" x="354" y="20" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="dEB-a8-qT4"/>
+                                            <constraint firstAttribute="height" constant="40" id="oCz-wz-W3q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="tintColor" name="BrandLightPurple"/>
+                                        <state key="normal" image="paperplane.fill" catalog="system"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="WBD-aB-xME" firstAttribute="leading" secondItem="70a-TO-PcW" secondAttribute="trailing" constant="20" id="6MF-ao-GsC"/>
+                                    <constraint firstItem="WBD-aB-xME" firstAttribute="top" secondItem="ADk-HQ-G3r" secondAttribute="top" constant="20" id="SEz-hK-zpL"/>
+                                    <constraint firstItem="70a-TO-PcW" firstAttribute="top" secondItem="ADk-HQ-G3r" secondAttribute="top" constant="20" id="aZn-t0-nyY"/>
+                                    <constraint firstItem="70a-TO-PcW" firstAttribute="leading" secondItem="ADk-HQ-G3r" secondAttribute="leading" constant="20" id="jYk-7s-Gl1"/>
+                                    <constraint firstAttribute="height" constant="60" id="kie-7y-3CT"/>
+                                    <constraint firstAttribute="trailing" secondItem="WBD-aB-xME" secondAttribute="trailing" constant="20" id="qW5-sC-qOz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="TpJ-q1-T95"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BrandPurple"/>
+                        <constraints>
+                            <constraint firstItem="ADk-HQ-G3r" firstAttribute="trailing" secondItem="TpJ-q1-T95" secondAttribute="trailing" id="AKn-WZ-7RG"/>
+                            <constraint firstItem="ADk-HQ-G3r" firstAttribute="leading" secondItem="TpJ-q1-T95" secondAttribute="leading" id="ESn-Fr-Got"/>
+                            <constraint firstItem="ADk-HQ-G3r" firstAttribute="bottom" secondItem="TpJ-q1-T95" secondAttribute="bottom" id="Oi8-4U-euQ"/>
+                            <constraint firstItem="ADk-HQ-G3r" firstAttribute="top" secondItem="fE2-Ud-WlV" secondAttribute="bottom" id="XDB-L0-HW1"/>
+                            <constraint firstItem="fE2-Ud-WlV" firstAttribute="top" secondItem="TpJ-q1-T95" secondAttribute="top" id="YD1-fi-fEE"/>
+                            <constraint firstItem="fE2-Ud-WlV" firstAttribute="leading" secondItem="TpJ-q1-T95" secondAttribute="leading" id="ZwC-V4-bB2"/>
+                            <constraint firstItem="TpJ-q1-T95" firstAttribute="trailing" secondItem="fE2-Ud-WlV" secondAttribute="trailing" id="t1Z-Ag-xGb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5tg-eF-f5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2496" y="102"/>
+            <point key="canvasLocation" x="2494.202898550725" y="101.78571428571428"/>
         </scene>
     </scenes>
     <resources>
+        <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
         <namedColor name="BrandBlue">
             <color red="0.38277089600000003" green="0.76811605689999995" blue="0.97649711370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="BrandLightBlue">
             <color red="0.92199999094009399" green="0.98000001907348633" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandLightPurple">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="BrandPurple">
+            <color red="0.63981461520000005" green="0.44609105589999998" blue="0.89023417230000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
