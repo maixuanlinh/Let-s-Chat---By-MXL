@@ -99,10 +99,11 @@
 		4869DD9425709DFB005DBE45 /* Let's Chat - By MXL */ = {
 			isa = PBXGroup;
 			children = (
+				4869DDCA25709E3A005DBE45 /* Model */,
+				4869DDC925709E34005DBE45 /* View */,
+				4869DDC825709E2C005DBE45 /* Controller */,
 				4869DD9525709DFB005DBE45 /* AppDelegate.swift */,
 				4869DD9725709DFB005DBE45 /* SceneDelegate.swift */,
-				4869DD9925709DFB005DBE45 /* ViewController.swift */,
-				4869DD9B25709DFB005DBE45 /* Main.storyboard */,
 				4869DD9E25709DFE005DBE45 /* Assets.xcassets */,
 				4869DDA025709DFE005DBE45 /* LaunchScreen.storyboard */,
 				4869DDA325709DFE005DBE45 /* Info.plist */,
@@ -126,6 +127,29 @@
 				4869DDB925709DFF005DBE45 /* Info.plist */,
 			);
 			path = "Let's Chat - By MXLUITests";
+			sourceTree = "<group>";
+		};
+		4869DDC825709E2C005DBE45 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4869DD9925709DFB005DBE45 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4869DDC925709E34005DBE45 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4869DD9B25709DFB005DBE45 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4869DDCA25709E3A005DBE45 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
