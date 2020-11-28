@@ -14,9 +14,18 @@
 		4869DDA225709DFE005DBE45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4869DDA025709DFE005DBE45 /* LaunchScreen.storyboard */; };
 		4869DDAD25709DFF005DBE45 /* Let_s_Chat___By_MXLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDAC25709DFF005DBE45 /* Let_s_Chat___By_MXLTests.swift */; };
 		4869DDB825709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDB725709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift */; };
-		4869DDD5257117AB005DBE45 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDD4257117AB005DBE45 /* WeatherViewController.swift */; };
-		4869DDD6257117AB005DBE45 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDD4257117AB005DBE45 /* WeatherViewController.swift */; };
-		4869DDD7257117AB005DBE45 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDD4257117AB005DBE45 /* WeatherViewController.swift */; };
+		4869DDDC2571B386005DBE45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDDB2571B385005DBE45 /* RegisterViewController.swift */; };
+		4869DDDD2571B386005DBE45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDDB2571B385005DBE45 /* RegisterViewController.swift */; };
+		4869DDDE2571B386005DBE45 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDDB2571B385005DBE45 /* RegisterViewController.swift */; };
+		4869DDE32571B397005DBE45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDE22571B397005DBE45 /* LoginViewController.swift */; };
+		4869DDE42571B397005DBE45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDE22571B397005DBE45 /* LoginViewController.swift */; };
+		4869DDE52571B397005DBE45 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDE22571B397005DBE45 /* LoginViewController.swift */; };
+		4869DDEA2571B3A3005DBE45 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDE92571B3A3005DBE45 /* ChatViewController.swift */; };
+		4869DDEB2571B3A3005DBE45 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDE92571B3A3005DBE45 /* ChatViewController.swift */; };
+		4869DDEC2571B3A3005DBE45 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDE92571B3A3005DBE45 /* ChatViewController.swift */; };
+		4869DDF12571B4CA005DBE45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */; };
+		4869DDF22571B4CA005DBE45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */; };
+		4869DDF32571B4CA005DBE45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +59,10 @@
 		4869DDB325709DFF005DBE45 /* Let's Chat - By MXLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Let's Chat - By MXLUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4869DDB725709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Let_s_Chat___By_MXLUITests.swift"; sourceTree = "<group>"; };
 		4869DDB925709DFF005DBE45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4869DDD4257117AB005DBE45 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		4869DDDB2571B385005DBE45 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		4869DDE22571B397005DBE45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4869DDE92571B3A3005DBE45 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +146,10 @@
 		4869DDC825709E2C005DBE45 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4869DDD4257117AB005DBE45 /* WeatherViewController.swift */,
+				4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */,
+				4869DDE92571B3A3005DBE45 /* ChatViewController.swift */,
+				4869DDDB2571B385005DBE45 /* RegisterViewController.swift */,
+				4869DDE22571B397005DBE45 /* LoginViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -285,8 +300,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4869DD9625709DFB005DBE45 /* AppDelegate.swift in Sources */,
-				4869DDD5257117AB005DBE45 /* WeatherViewController.swift in Sources */,
 				4869DD9825709DFB005DBE45 /* SceneDelegate.swift in Sources */,
+				4869DDE32571B397005DBE45 /* LoginViewController.swift in Sources */,
+				4869DDEA2571B3A3005DBE45 /* ChatViewController.swift in Sources */,
+				4869DDDC2571B386005DBE45 /* RegisterViewController.swift in Sources */,
+				4869DDF12571B4CA005DBE45 /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +312,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4869DDE42571B397005DBE45 /* LoginViewController.swift in Sources */,
+				4869DDDD2571B386005DBE45 /* RegisterViewController.swift in Sources */,
 				4869DDAD25709DFF005DBE45 /* Let_s_Chat___By_MXLTests.swift in Sources */,
-				4869DDD6257117AB005DBE45 /* WeatherViewController.swift in Sources */,
+				4869DDF22571B4CA005DBE45 /* WelcomeViewController.swift in Sources */,
+				4869DDEB2571B3A3005DBE45 /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -303,8 +324,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4869DDE52571B397005DBE45 /* LoginViewController.swift in Sources */,
+				4869DDDE2571B386005DBE45 /* RegisterViewController.swift in Sources */,
 				4869DDB825709DFF005DBE45 /* Let_s_Chat___By_MXLUITests.swift in Sources */,
-				4869DDD7257117AB005DBE45 /* WeatherViewController.swift in Sources */,
+				4869DDF32571B4CA005DBE45 /* WelcomeViewController.swift in Sources */,
+				4869DDEC2571B3A3005DBE45 /* ChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

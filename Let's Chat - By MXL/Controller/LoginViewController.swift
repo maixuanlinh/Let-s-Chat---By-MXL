@@ -1,14 +1,18 @@
 //
-//  WeatherViewController.swift
+//  LoginViewController.swift
 //  Let's Chat - By MXL
 //
-//  Created by Mai Xuan Linh on 27.11.2020.
+//  Created by Mai Xuan Linh on 28.11.2020.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class LoginViewController: UIViewController {
 
+    @IBOutlet weak var passwordTextfield: UITextField!
+    @IBOutlet weak var emailTextfield: UITextField!    
+    @IBOutlet weak var loginPressed: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

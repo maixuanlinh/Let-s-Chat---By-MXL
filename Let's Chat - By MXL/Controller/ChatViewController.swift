@@ -1,14 +1,18 @@
 //
-//  WeatherViewController.swift
+//  ChatViewController.swift
 //  Let's Chat - By MXL
 //
-//  Created by Mai Xuan Linh on 27.11.2020.
+//  Created by Mai Xuan Linh on 28.11.2020.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class ChatViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var messageTextField: UITextField!
+    @IBOutlet weak var sendPressed: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

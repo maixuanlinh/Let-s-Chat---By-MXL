@@ -1,14 +1,20 @@
 //
-//  WeatherViewController.swift
+//  RegisterViewController.swift
 //  Let's Chat - By MXL
 //
-//  Created by Mai Xuan Linh on 27.11.2020.
+//  Created by Mai Xuan Linh on 28.11.2020.
 //
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
+    @IBOutlet weak var emailTextfield: UITextField!
+    
+    @IBOutlet weak var passwordTextfield: UITextField!
+    
+    @IBOutlet weak var registerPressed: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
