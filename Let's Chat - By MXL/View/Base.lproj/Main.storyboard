@@ -12,13 +12,13 @@
         <!--Welcome View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" userLabel="Welcome View Controller" customClass="WelcomeViewController" customModule="Let_s_Chat___By_MXL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" userLabel="Welcome View Controller" customClass="WelcomeViewController" customModule="LoveChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️Let's Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KA-cA-zEl" userLabel="Title Label">
-                                <rect key="frame" x="54" y="418" width="306.5" height="60"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️Love Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7KA-cA-zEl" userLabel="Title Label" customClass="CLTypingLabel" customModule="CLTypingLabel">
+                                <rect key="frame" x="56.5" y="418" width="301" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="0er-BO-0g4"/>
                                 </constraints>
@@ -82,7 +82,7 @@
         <!--Register View Controller-->
         <scene sceneID="d5k-JJ-2ZY">
             <objects>
-                <viewController id="RSi-pF-to6" userLabel="Register View Controller" customClass="RegisterViewController" customModule="Let_s_Chat___By_MXL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="RSi-pF-to6" userLabel="Register View Controller" customClass="RegisterViewController" customModule="LoveChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6Vw-na-XTh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,6 +121,9 @@
                                         <state key="normal" title="Register">
                                             <color key="titleColor" name="BrandBlue"/>
                                         </state>
+                                        <connections>
+                                            <action selector="registerPressed:" destination="RSi-pF-to6" eventType="touchUpInside" id="Oyc-GC-iT8"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yqe-Yt-lzF">
                                         <rect key="frame" x="0.0" y="20" width="414" height="137"/>
@@ -173,7 +176,7 @@
         <!--Login View Controller-->
         <scene sceneID="sH8-VK-AhL">
             <objects>
-                <viewController id="xGY-2k-rlP" userLabel="Login View Controller" customClass="LoginViewController" customModule="Let_s_Chat___By_MXL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xGY-2k-rlP" userLabel="Login View Controller" customClass="LoginViewController" customModule="LoveChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gVP-2d-luq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,6 +215,9 @@
                                         <state key="normal" title="Log in">
                                             <color key="titleColor" name="BrandLightBlue"/>
                                         </state>
+                                        <connections>
+                                            <action selector="loginPressed:" destination="xGY-2k-rlP" eventType="touchUpInside" id="I0a-sh-TXD"/>
+                                        </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3Vq-eM-MPP">
                                         <rect key="frame" x="0.0" y="20" width="414" height="137"/>
@@ -219,7 +225,7 @@
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QZh-j6-6lM" userLabel="Password Textfield">
                                         <rect key="frame" x="48" y="50" width="318" height="45"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                        <textInputTraits key="textInputTraits"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                 </subviews>
                                 <constraints>
@@ -264,7 +270,7 @@
         <!--Chat View Controller-->
         <scene sceneID="aYp-RN-yUa">
             <objects>
-                <viewController id="7H4-YR-XcP" userLabel="Chat View Controller" customClass="ChatViewController" customModule="Let_s_Chat___By_MXL" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7H4-YR-XcP" userLabel="Chat View Controller" customClass="ChatViewController" customModule="LoveChat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2CZ-HV-0ey">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -272,22 +278,13 @@
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fE2-Ud-WlV">
                                 <rect key="frame" x="0.0" y="88" width="414" height="714"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="nMb-0i-X1b">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="43.5"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nMb-0i-X1b" id="77N-Gg-Inr">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="43.5"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
                             </tableView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ADk-HQ-G3r">
                                 <rect key="frame" x="0.0" y="802" width="414" height="60"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder=" Write a message... " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="70a-TO-PcW" userLabel="Message Textfield">
                                         <rect key="frame" x="20" y="20" width="314" height="40"/>
+                                        <color key="backgroundColor" name="BrandLightPurple"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="CQ0-qa-O7I"/>
                                         </constraints>
@@ -303,6 +300,9 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="tintColor" name="BrandLightPurple"/>
                                         <state key="normal" image="paperplane.fill" catalog="system"/>
+                                        <connections>
+                                            <action selector="sendPressed:" destination="7H4-YR-XcP" eventType="touchUpInside" id="FpZ-Cg-g38"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -327,11 +327,16 @@
                             <constraint firstItem="TpJ-q1-T95" firstAttribute="trailing" secondItem="fE2-Ud-WlV" secondAttribute="trailing" id="t1Z-Ag-xGb"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="aaz-yK-sGj"/>
+                    <navigationItem key="navigationItem" id="aaz-yK-sGj">
+                        <barButtonItem key="rightBarButtonItem" title="Log out" id="Qg5-Qk-IzK">
+                            <connections>
+                                <action selector="logoutPressed:" destination="7H4-YR-XcP" id="IKn-Sn-ZNu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
-                        <outlet property="messageTextField" destination="70a-TO-PcW" id="fof-Ov-IJX"/>
-                        <outlet property="sendPressed" destination="WBD-aB-xME" id="weG-Wa-ZaA"/>
-                        <outlet property="tableView" destination="fE2-Ud-WlV" id="Zyy-D7-H9i"/>
+                        <outlet property="messageTextfield" destination="70a-TO-PcW" id="jEy-zX-qh9"/>
+                        <outlet property="tableView" destination="fE2-Ud-WlV" id="tOk-Zf-9HJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5tg-eF-f5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -358,22 +363,22 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7DM-dG-Mbj"/>
+        <segue reference="4iy-QR-zxh"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="118"/>
         <image name="textfield" width="298" height="93"/>
         <namedColor name="BrandBlue">
-            <color red="0.38277089600000003" green="0.76811605689999995" blue="0.97649711370000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.16500000655651093" green="0.77999997138977051" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BrandLightBlue">
             <color red="0.92199999094009399" green="0.98000001907348633" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BrandLightPurple">
-            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.98000001907348633" green="0.9649999737739563" blue="0.99599999189376831" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="BrandPurple">
-            <color red="0.63981461520000005" green="0.44609105589999998" blue="0.89023417230000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.67500001192092896" green="0.43500000238418579" blue="0.9179999828338623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

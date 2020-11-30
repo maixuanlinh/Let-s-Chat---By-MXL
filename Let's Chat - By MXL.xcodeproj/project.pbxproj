@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		017A4E28E52CDC5A8EDFDCCE /* Pods_Let_s_Chat___By_MXL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489546FDEA0161255C8F1351 /* Pods_Let_s_Chat___By_MXL.framework */; };
 		4869DD9625709DFB005DBE45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DD9525709DFB005DBE45 /* AppDelegate.swift */; };
 		4869DD9825709DFB005DBE45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DD9725709DFB005DBE45 /* SceneDelegate.swift */; };
 		4869DD9D25709DFB005DBE45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4869DD9B25709DFB005DBE45 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 		4869DDF12571B4CA005DBE45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */; };
 		4869DDF22571B4CA005DBE45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */; };
 		4869DDF32571B4CA005DBE45 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */; };
+		486D2E232573123700189B3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 486D2E222573123700189B3D /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,10 @@
 		4869DDE22571B397005DBE45 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4869DDE92571B3A3005DBE45 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		4869DDF02571B4CA005DBE45 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		486D2E222573123700189B3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		489546FDEA0161255C8F1351 /* Pods_Let_s_Chat___By_MXL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Let_s_Chat___By_MXL.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DE19E694776DC65FCA9502B /* Pods-Let's Chat - By MXL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Let's Chat - By MXL.release.xcconfig"; path = "Target Support Files/Pods-Let's Chat - By MXL/Pods-Let's Chat - By MXL.release.xcconfig"; sourceTree = "<group>"; };
+		B2874A452200621472487D25 /* Pods-Let's Chat - By MXL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Let's Chat - By MXL.debug.xcconfig"; path = "Target Support Files/Pods-Let's Chat - By MXL/Pods-Let's Chat - By MXL.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017A4E28E52CDC5A8EDFDCCE /* Pods_Let_s_Chat___By_MXL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0FF1D916271C9C22C545BE3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				489546FDEA0161255C8F1351 /* Pods_Let_s_Chat___By_MXL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		4869DD8925709DFB005DBE45 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +112,8 @@
 				4869DDAB25709DFF005DBE45 /* Let's Chat - By MXLTests */,
 				4869DDB625709DFF005DBE45 /* Let's Chat - By MXLUITests */,
 				4869DD9325709DFB005DBE45 /* Products */,
+				AD6A2D6348EFD68147D1C0D4 /* Pods */,
+				0FF1D916271C9C22C545BE3D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +138,7 @@
 				4869DD9E25709DFE005DBE45 /* Assets.xcassets */,
 				4869DDA025709DFE005DBE45 /* LaunchScreen.storyboard */,
 				4869DDA325709DFE005DBE45 /* Info.plist */,
+				486D2E222573123700189B3D /* GoogleService-Info.plist */,
 			);
 			path = "Let's Chat - By MXL";
 			sourceTree = "<group>";
@@ -169,6 +187,15 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		AD6A2D6348EFD68147D1C0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2874A452200621472487D25 /* Pods-Let's Chat - By MXL.debug.xcconfig */,
+				4DE19E694776DC65FCA9502B /* Pods-Let's Chat - By MXL.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4869DDBC25709DFF005DBE45 /* Build configuration list for PBXNativeTarget "Let's Chat - By MXL" */;
 			buildPhases = (
+				6FC5F8221660887A413C2AC9 /* [CP] Check Pods Manifest.lock */,
 				4869DD8E25709DFB005DBE45 /* Sources */,
 				4869DD8F25709DFB005DBE45 /* Frameworks */,
 				4869DD9025709DFB005DBE45 /* Resources */,
+				D6BF809AD9014FF92FB6EB1D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -273,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4869DDA225709DFE005DBE45 /* LaunchScreen.storyboard in Resources */,
+				486D2E232573123700189B3D /* GoogleService-Info.plist in Resources */,
 				4869DD9F25709DFE005DBE45 /* Assets.xcassets in Resources */,
 				4869DD9D25709DFB005DBE45 /* Main.storyboard in Resources */,
 			);
@@ -293,6 +323,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6FC5F8221660887A413C2AC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Let's Chat - By MXL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6BF809AD9014FF92FB6EB1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Let's Chat - By MXL/Pods-Let's Chat - By MXL-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Let's Chat - By MXL/Pods-Let's Chat - By MXL-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Let's Chat - By MXL/Pods-Let's Chat - By MXL-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4869DD8E25709DFB005DBE45 /* Sources */ = {
@@ -485,6 +557,7 @@
 		};
 		4869DDBD25709DFF005DBE45 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2874A452200621472487D25 /* Pods-Let's Chat - By MXL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -504,6 +577,7 @@
 		};
 		4869DDBE25709DFF005DBE45 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DE19E694776DC65FCA9502B /* Pods-Let's Chat - By MXL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -524,7 +598,7 @@
 		4869DDC025709DFF005DBE45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FN25VD7TR;
@@ -546,7 +620,7 @@
 		4869DDC125709DFF005DBE45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FN25VD7TR;
@@ -568,7 +642,7 @@
 		4869DDC325709DFF005DBE45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FN25VD7TR;
 				INFOPLIST_FILE = "Let's Chat - By MXLUITests/Info.plist";
@@ -588,7 +662,7 @@
 		4869DDC425709DFF005DBE45 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2FN25VD7TR;
 				INFOPLIST_FILE = "Let's Chat - By MXLUITests/Info.plist";
